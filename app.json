@@ -1,0 +1,23 @@
+{
+  "name": "MD",
+  "description": "MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+  "logo": "",
+  "keywords": ["hansamalmd", "bot", "whatsapp bot", "multi device", "hansamal-md"],
+  "success_url": "/",
+
+  "env": {
+
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    }
+},
+         "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+  
+  
+}
