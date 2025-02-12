@@ -6,7 +6,6 @@
   "success_url": "/",
 
   "env": {
-
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true
@@ -22,7 +21,7 @@
   "OWNER_NUMBER": {
       "description": "Put the your bot number.",
       "required": true
-    },
+    }
 },
          "buildpacks": [
         {
